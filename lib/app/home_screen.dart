@@ -8,11 +8,11 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
         body: Center(
-      child: Container(
-          margin: const EdgeInsets.symmetric(horizontal: 32),
-          child: const WidgetSpinner()),
+      child: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 32, vertical: 64),
+          child: WidgetSpinner()),
     ));
   }
 }

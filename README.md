@@ -1,6 +1,6 @@
 # widget_spinner
 
-A new Flutter project.
+A Flutter Fidget Spinner... AKA a Widget Spinner. Don't take this too seriously.
 
 ## Getting Started
 
